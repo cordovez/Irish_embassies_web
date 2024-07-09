@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "irish-embassies-webb"
+version = "0.1.0"
+description = "Front end webb app for Irish Embassies dashboard"
+authors = ["Juan Carlos Cordovez-Mantilla <cordovez@el-cordovez.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.1"
+shiny = "^0.10.2"
+requests = "^2.32.3"
+pandas = "^2.2.2"
+shinywidgets = "^0.3.2"
+ipyleaflet = "^0.19.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
